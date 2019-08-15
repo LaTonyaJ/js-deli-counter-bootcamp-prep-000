@@ -17,6 +17,8 @@ function currentLine(katzDeliLine){
   }
   else
   for(let i = 0; i < katzDeliLine.length; i++){
-    return 'The line is currently: ' + [i+1]+'. '+ katzDeliLine[i] 
+    var line = []
+    
+    return 'The line is currently: ' + [i+1]+'. '+ line[i] 
   }
 }
