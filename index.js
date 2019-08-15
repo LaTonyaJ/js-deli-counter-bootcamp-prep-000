@@ -17,8 +17,8 @@ function currentLine(katzDeliLine){
   }
   else
     var i = 0
-    while(i < katzDeliLine.length, i++){
-      return 'The line is currently: ' + katzDeliLine[i]
-     // i++
+    while(i < katzDeliLine.length){
+      return 'The line is currently: ' + katzDeliLine[i].join()
+      i++
     }
 }
